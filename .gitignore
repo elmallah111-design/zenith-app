@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Archives and big scientific formats
+*.zip
+*.nc
+*.hdf
+
+# GeoTIFFs: .gitignore cannot filter by size. Files over 50 MB are kept out of git
+# by a size check before each commit (see the team workflow). Small GeoTIFFs in
+# case-studies/ may be committed.
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+app/map/zenith-map-standalone.html

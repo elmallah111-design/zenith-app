@@ -1,0 +1,664 @@
+{
+ "targets": {
+  "shackleton": {
+   "name": "Shackleton crater rim",
+   "eligible_cells": 139393,
+   "ice_cells_included": true,
+   "features_scored": [
+    "slope_deg",
+    "roughness_tri_m",
+    "relief_m",
+    "temp_min_K",
+    "temp_daynight_range_K",
+    "albedo_wsa_unitless",
+    "precip_mm_per_yr",
+    "ground_ice_frac",
+    "sun_noon_elev_mean_deg",
+    "geology_match"
+   ],
+   "out_of_earth_range": {
+    "temp_min_K": -138.11,
+    "temp_daynight_range_K": 15.24,
+    "sun_noon_elev_mean_deg": -6.91
+   },
+   "stability_top_k": 1394,
+   "earth_testable_dims": [
+    "aridity",
+    "terrain",
+    "surface",
+    "ice",
+    "illumination",
+    "geology"
+   ],
+   "not_testable_on_earth_dims": [
+    "thermal"
+   ],
+   "rediscovery": {
+    "top_n": 25,
+    "within_km": 300,
+    "hits": 5,
+    "expected_by_chance": 1.3,
+    "area_share_near_known": 0.052
+   },
+   "best": {
+    "lat": -77.375,
+    "lon": 161.625,
+    "score": 0.4173,
+    "percentile": 100.0,
+    "earth_testable_score": 0.4653,
+    "earth_testable_percentile": 100.0,
+    "dimensions": {
+     "thermal": 0.217,
+     "aridity": 0.451,
+     "terrain": 0.35,
+     "surface": 0.235,
+     "ice": 1.0,
+     "illumination": 0.745,
+     "geology": 0.368
+    },
+    "weakest_dimension": "thermal",
+    "weakest_value": 0.217,
+    "stability": 0.77,
+    "earth": {
+     "slope_deg": 9.41,
+     "roughness_tri_m": 553.78,
+     "relief_m": 1333.6,
+     "temp_min_K": 232.33,
+     "temp_daynight_range_K": 1.58,
+     "albedo_wsa_unitless": 0.32,
+     "precip_mm_per_yr": 80.4,
+     "ground_ice_frac": 1.0,
+     "sun_noon_elev_mean_deg": 14.84,
+     "geology_match": 0.0,
+     "ice_flag_bool": 1.0,
+     "permafrost_pct": null,
+     "barren_pct": 11.9,
+     "ndvi_max_unitless": null,
+     "wind_m_s": 7.04,
+     "aod_unitless": 0.0
+    },
+    "tags": {
+     "rock_abbr": "pa",
+     "impact_crater": null,
+     "lava_tube": null
+    },
+    "precip_source": "MERRA-2",
+    "nearest_known": {
+     "id": "dryvalleys",
+     "name": "McMurdo Dry Valleys",
+     "km": 17
+    }
+   },
+   "n_lesser_known": 10,
+   "pool_cells": 460
+  },
+  "malapert": {
+   "name": "Malapert Massif",
+   "eligible_cells": 29846,
+   "ice_cells_included": false,
+   "features_scored": [
+    "slope_deg",
+    "roughness_tri_m",
+    "relief_m",
+    "temp_min_K",
+    "temp_daynight_range_K",
+    "albedo_wsa_unitless",
+    "precip_mm_per_yr",
+    "ground_ice_frac",
+    "sun_noon_elev_mean_deg",
+    "geology_match"
+   ],
+   "out_of_earth_range": {
+    "temp_min_K": -165.22,
+    "temp_daynight_range_K": 69.74,
+    "sun_noon_elev_mean_deg": -7.01
+   },
+   "stability_top_k": 298,
+   "earth_testable_dims": [
+    "aridity",
+    "terrain",
+    "surface",
+    "ice",
+    "illumination",
+    "geology"
+   ],
+   "not_testable_on_earth_dims": [
+    "thermal"
+   ],
+   "rediscovery": {
+    "top_n": 25,
+    "within_km": 300,
+    "hits": 3,
+    "expected_by_chance": 1.51,
+    "area_share_near_known": 0.0604
+   },
+   "best": {
+    "lat": 28.625,
+    "lon": 61.125,
+    "score": 0.4613,
+    "percentile": 100.0,
+    "earth_testable_score": 0.4905,
+    "earth_testable_percentile": 100.0,
+    "dimensions": {
+     "thermal": 0.319,
+     "aridity": 0.577,
+     "terrain": 0.26,
+     "surface": 0.691,
+     "ice": 1.0,
+     "illumination": 0.134,
+     "geology": 1.0
+    },
+    "weakest_dimension": "illumination",
+    "weakest_value": 0.134,
+    "stability": 0.705,
+    "earth": {
+     "slope_deg": 5.072,
+     "roughness_tri_m": 421.59,
+     "relief_m": 1965.5,
+     "temp_min_K": 272.57,
+     "temp_daynight_range_K": 17.0,
+     "albedo_wsa_unitless": 0.164,
+     "precip_mm_per_yr": 55.4,
+     "ground_ice_frac": 0.0,
+     "sun_noon_elev_mean_deg": 61.38,
+     "geology_match": 1.0,
+     "ice_flag_bool": 0.0,
+     "permafrost_pct": null,
+     "barren_pct": 96.2,
+     "ndvi_max_unitless": 0.122,
+     "wind_m_s": 4.43,
+     "aod_unitless": 0.38
+    },
+    "tags": {
+     "rock_abbr": "pb",
+     "impact_crater": null,
+     "lava_tube": null
+    },
+    "precip_source": "IMERG",
+    "nearest_known": {
+     "id": "imm24",
+     "name": "Tso Kar Valley, Ladakh (ISRO HOPE)",
+     "km": 1685
+    }
+   },
+   "n_lesser_known": 8,
+   "pool_cells": 429
+  },
+  "marius": {
+   "name": "Marius Hills lava-tube pit",
+   "eligible_cells": 29846,
+   "ice_cells_included": false,
+   "features_scored": [
+    "slope_deg",
+    "roughness_tri_m",
+    "relief_m",
+    "temp_min_K",
+    "temp_daynight_range_K",
+    "albedo_wsa_unitless",
+    "precip_mm_per_yr",
+    "ground_ice_frac",
+    "sun_noon_elev_mean_deg",
+    "geology_match"
+   ],
+   "out_of_earth_range": {
+    "temp_min_K": -138.62,
+    "temp_daynight_range_K": 265.34,
+    "sun_noon_elev_mean_deg": 0.76
+   },
+   "stability_top_k": 298,
+   "earth_testable_dims": [
+    "aridity",
+    "terrain",
+    "surface",
+    "ice",
+    "illumination",
+    "geology"
+   ],
+   "not_testable_on_earth_dims": [
+    "thermal"
+   ],
+   "rediscovery": {
+    "top_n": 25,
+    "within_km": 300,
+    "hits": 2,
+    "expected_by_chance": 1.51,
+    "area_share_near_known": 0.0604
+   },
+   "best": {
+    "lat": 27.375,
+    "lon": 37.375,
+    "score": 0.7293,
+    "percentile": 100.0,
+    "earth_testable_score": 0.8472,
+    "earth_testable_percentile": 100.0,
+    "dimensions": {
+     "thermal": 0.297,
+     "aridity": 0.881,
+     "terrain": 0.96,
+     "surface": 0.72,
+     "ice": 1.0,
+     "illumination": 0.607,
+     "geology": 1.0
+    },
+    "weakest_dimension": "thermal",
+    "weakest_value": 0.297,
+    "stability": 0.95,
+    "earth": {
+     "slope_deg": 1.037,
+     "roughness_tri_m": 93.51,
+     "relief_m": 455.1,
+     "temp_min_K": 279.46,
+     "temp_daynight_range_K": 17.52,
+     "albedo_wsa_unitless": 0.158,
+     "precip_mm_per_yr": 12.8,
+     "ground_ice_frac": 0.0,
+     "sun_noon_elev_mean_deg": 62.62,
+     "geology_match": 1.0,
+     "ice_flag_bool": 0.0,
+     "permafrost_pct": null,
+     "barren_pct": 91.8,
+     "ndvi_max_unitless": 0.082,
+     "wind_m_s": 4.14,
+     "aod_unitless": 0.27
+    },
+    "tags": {
+     "rock_abbr": "vb",
+     "impact_crater": null,
+     "lava_tube": null
+    },
+    "precip_source": "IMERG",
+    "nearest_known": {
+     "id": "wadirum",
+     "name": "Wadi Rum",
+     "km": 310
+    }
+   },
+   "n_lesser_known": 10,
+   "pool_cells": 383
+  },
+  "arcadia": {
+   "name": "Arcadia Planitia",
+   "eligible_cells": 139393,
+   "ice_cells_included": true,
+   "features_scored": [
+    "slope_deg",
+    "roughness_tri_m",
+    "relief_m",
+    "temp_min_K",
+    "temp_daynight_range_K",
+    "albedo_wsa_unitless",
+    "precip_mm_per_yr",
+    "ground_ice_frac",
+    "sun_noon_elev_mean_deg",
+    "geology_match"
+   ],
+   "out_of_earth_range": {
+    "temp_min_K": -30.71,
+    "temp_daynight_range_K": 45.94
+   },
+   "stability_top_k": 1394,
+   "earth_testable_dims": [
+    "aridity",
+    "terrain",
+    "surface",
+    "ice",
+    "illumination",
+    "geology"
+   ],
+   "not_testable_on_earth_dims": [
+    "thermal"
+   ],
+   "rediscovery": {
+    "top_n": 25,
+    "within_km": 300,
+    "hits": 5,
+    "expected_by_chance": 1.3,
+    "area_share_near_known": 0.052
+   },
+   "best": {
+    "lat": 38.875,
+    "lon": 95.125,
+    "score": 0.6953,
+    "percentile": 100.0,
+    "earth_testable_score": 0.778,
+    "earth_testable_percentile": 99.93,
+    "dimensions": {
+     "thermal": 0.354,
+     "aridity": 0.563,
+     "terrain": 0.504,
+     "surface": 0.864,
+     "ice": 1.0,
+     "illumination": 0.904,
+     "geology": 1.0
+    },
+    "weakest_dimension": "thermal",
+    "weakest_value": 0.354,
+    "stability": 0.915,
+    "earth": {
+     "slope_deg": 0.801,
+     "roughness_tri_m": 60.18,
+     "relief_m": 377.1,
+     "temp_min_K": 250.68,
+     "temp_daynight_range_K": 22.5,
+     "albedo_wsa_unitless": 0.271,
+     "precip_mm_per_yr": 57.9,
+     "ground_ice_frac": 1.0,
+     "sun_noon_elev_mean_deg": 51.12,
+     "geology_match": 1.0,
+     "ice_flag_bool": 0.0,
+     "permafrost_pct": 100.0,
+     "barren_pct": 98.8,
+     "ndvi_max_unitless": 0.068,
+     "wind_m_s": 3.98,
+     "aod_unitless": 0.21
+    },
+    "tags": {
+     "rock_abbr": "su",
+     "impact_crater": null,
+     "lava_tube": null
+    },
+    "precip_source": "IMERG",
+    "nearest_known": {
+     "id": "qaidam",
+     "name": "Qaidam Basin",
+     "km": 248
+    }
+   },
+   "n_lesser_known": 10,
+   "pool_cells": 441
+  },
+  "jezero": {
+   "name": "Jezero crater",
+   "eligible_cells": 29846,
+   "ice_cells_included": false,
+   "features_scored": [
+    "slope_deg",
+    "roughness_tri_m",
+    "relief_m",
+    "temp_min_K",
+    "temp_daynight_range_K",
+    "albedo_wsa_unitless",
+    "precip_mm_per_yr",
+    "ground_ice_frac",
+    "sun_noon_elev_mean_deg",
+    "geology_match"
+   ],
+   "out_of_earth_range": {
+    "temp_min_K": -43.02,
+    "temp_daynight_range_K": 47.24
+   },
+   "stability_top_k": 298,
+   "earth_testable_dims": [
+    "aridity",
+    "terrain",
+    "surface",
+    "ice",
+    "illumination",
+    "geology"
+   ],
+   "not_testable_on_earth_dims": [
+    "thermal"
+   ],
+   "rediscovery": {
+    "top_n": 25,
+    "within_km": 300,
+    "hits": 2,
+    "expected_by_chance": 1.51,
+    "area_share_near_known": 0.0604
+   },
+   "best": {
+    "lat": -20.625,
+    "lon": -69.875,
+    "score": 0.805,
+    "percentile": 100.0,
+    "earth_testable_score": 0.8783,
+    "earth_testable_percentile": 99.98,
+    "dimensions": {
+     "thermal": 0.477,
+     "aridity": 0.801,
+     "terrain": 0.964,
+     "surface": 0.633,
+     "ice": 1.0,
+     "illumination": 0.94,
+     "geology": 1.0
+    },
+    "weakest_dimension": "thermal",
+    "weakest_value": 0.477,
+    "stability": 0.995,
+    "earth": {
+     "slope_deg": 2.041,
+     "roughness_tri_m": 185.82,
+     "relief_m": 617.5,
+     "temp_min_K": 281.89,
+     "temp_daynight_range_K": 25.66,
+     "albedo_wsa_unitless": 0.206,
+     "precip_mm_per_yr": 22.4,
+     "ground_ice_frac": 0.0,
+     "sun_noon_elev_mean_deg": 68.8,
+     "geology_match": 1.0,
+     "ice_flag_bool": 0.0,
+     "permafrost_pct": null,
+     "barren_pct": 100.0,
+     "ndvi_max_unitless": 0.089,
+     "wind_m_s": 3.36,
+     "aod_unitless": 0.08
+    },
+    "tags": {
+     "rock_abbr": "ss",
+     "impact_crater": null,
+     "lava_tube": null
+    },
+    "precip_source": "IMERG",
+    "nearest_known": {
+     "id": "atacama",
+     "name": "Yungay, Atacama Desert",
+     "km": 387
+    }
+   },
+   "n_lesser_known": 10,
+   "pool_cells": 346
+  },
+  "gale": {
+   "name": "Gale crater",
+   "eligible_cells": 29846,
+   "ice_cells_included": false,
+   "features_scored": [
+    "slope_deg",
+    "roughness_tri_m",
+    "relief_m",
+    "temp_min_K",
+    "temp_daynight_range_K",
+    "albedo_wsa_unitless",
+    "precip_mm_per_yr",
+    "ground_ice_frac",
+    "sun_noon_elev_mean_deg",
+    "geology_match"
+   ],
+   "out_of_earth_range": {
+    "temp_min_K": -49.72,
+    "temp_daynight_range_K": 53.44
+   },
+   "stability_top_k": 298,
+   "earth_testable_dims": [
+    "aridity",
+    "terrain",
+    "surface",
+    "ice",
+    "illumination",
+    "geology"
+   ],
+   "not_testable_on_earth_dims": [
+    "thermal"
+   ],
+   "rediscovery": {
+    "top_n": 25,
+    "within_km": 300,
+    "hits": 4,
+    "expected_by_chance": 1.51,
+    "area_share_near_known": 0.0604
+   },
+   "best": {
+    "lat": -17.625,
+    "lon": -71.125,
+    "score": 0.7315,
+    "percentile": 100.0,
+    "earth_testable_score": 0.8089,
+    "earth_testable_percentile": 100.0,
+    "dimensions": {
+     "thermal": 0.4,
+     "aridity": 0.58,
+     "terrain": 0.75,
+     "surface": 0.86,
+     "ice": 1.0,
+     "illumination": 0.748,
+     "geology": 1.0
+    },
+    "weakest_dimension": "thermal",
+    "weakest_value": 0.4,
+    "stability": 0.94,
+    "earth": {
+     "slope_deg": 4.22,
+     "roughness_tri_m": 380.25,
+     "relief_m": 1652.9,
+     "temp_min_K": 282.58,
+     "temp_daynight_range_K": 23.24,
+     "albedo_wsa_unitless": 0.228,
+     "precip_mm_per_yr": 54.9,
+     "ground_ice_frac": 0.0,
+     "sun_noon_elev_mean_deg": 70.65,
+     "geology_match": 1.0,
+     "ice_flag_bool": 0.0,
+     "permafrost_pct": null,
+     "barren_pct": 98.6,
+     "ndvi_max_unitless": 0.083,
+     "wind_m_s": 3.26,
+     "aod_unitless": 0.12
+    },
+    "tags": {
+     "rock_abbr": "sm",
+     "impact_crater": null,
+     "lava_tube": null
+    },
+    "precip_source": "IMERG",
+    "nearest_known": {
+     "id": "atacama",
+     "name": "Yungay, Atacama Desert",
+     "km": 729
+    }
+   },
+   "n_lesser_known": 10,
+   "pool_cells": 409
+  },
+  "meridiani": {
+   "name": "Meridiani Planum",
+   "eligible_cells": 29846,
+   "ice_cells_included": false,
+   "features_scored": [
+    "slope_deg",
+    "roughness_tri_m",
+    "relief_m",
+    "temp_min_K",
+    "temp_daynight_range_K",
+    "albedo_wsa_unitless",
+    "precip_mm_per_yr",
+    "ground_ice_frac",
+    "sun_noon_elev_mean_deg",
+    "geology_match"
+   ],
+   "out_of_earth_range": {
+    "temp_min_K": -46.22,
+    "temp_daynight_range_K": 59.44
+   },
+   "stability_top_k": 298,
+   "earth_testable_dims": [
+    "aridity",
+    "terrain",
+    "surface",
+    "ice",
+    "illumination",
+    "geology"
+   ],
+   "not_testable_on_earth_dims": [
+    "thermal"
+   ],
+   "rediscovery": {
+    "top_n": 25,
+    "within_km": 300,
+    "hits": 3,
+    "expected_by_chance": 1.51,
+    "area_share_near_known": 0.0604
+   },
+   "best": {
+    "lat": -22.875,
+    "lon": -69.625,
+    "score": 0.762,
+    "percentile": 100.0,
+    "earth_testable_score": 0.7816,
+    "earth_testable_percentile": 99.94,
+    "dimensions": {
+     "thermal": 0.654,
+     "aridity": 0.831,
+     "terrain": 0.905,
+     "surface": 0.572,
+     "ice": 1.0,
+     "illumination": 0.53,
+     "geology": 1.0
+    },
+    "weakest_dimension": "illumination",
+    "weakest_value": 0.53,
+    "stability": 0.965,
+    "earth": {
+     "slope_deg": 0.394,
+     "roughness_tri_m": 33.09,
+     "relief_m": 172.4,
+     "temp_min_K": 275.53,
+     "temp_daynight_range_K": 29.21,
+     "albedo_wsa_unitless": 0.221,
+     "precip_mm_per_yr": 18.7,
+     "ground_ice_frac": 0.0,
+     "sun_noon_elev_mean_deg": 67.07,
+     "geology_match": 1.0,
+     "ice_flag_bool": 0.0,
+     "permafrost_pct": null,
+     "barren_pct": 100.0,
+     "ndvi_max_unitless": 0.072,
+     "wind_m_s": 3.81,
+     "aod_unitless": 0.07
+    },
+    "tags": {
+     "rock_abbr": "ss",
+     "impact_crater": null,
+     "lava_tube": null
+    },
+    "precip_source": "IMERG",
+    "nearest_known": {
+     "id": "atacama",
+     "name": "Yungay, Atacama Desert",
+     "km": 141
+    }
+   },
+   "n_lesser_known": 8,
+   "pool_cells": 416
+  }
+ },
+ "validation": {
+  "pass": 10,
+  "total": 23,
+  "overall_top10pct": 2,
+  "overall_top25pct": 4
+ },
+ "scales": {
+  "slope_deg": 0.816,
+  "roughness_tri_m": 1.7343875736003724,
+  "relief_m": 1.8954702688368332,
+  "temp_min_K": 11.886970872189352,
+  "temp_daynight_range_K": 3.0999999999999996,
+  "albedo_wsa_unitless": 0.14479999999999998,
+  "precip_mm_per_yr": 100.89999999999999,
+  "ground_ice_frac": 1.0,
+  "sun_noon_elev_mean_deg": 11.07,
+  "geology_match": 1.0
+ },
+ "bare_cells": 29846,
+ "icy_cells": 109780
+}
